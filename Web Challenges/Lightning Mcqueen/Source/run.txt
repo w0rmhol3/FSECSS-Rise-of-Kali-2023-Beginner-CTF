@@ -1,0 +1,11 @@
+//Run once
+1. docker build -t web2 .
+
+
+//Run this:
+1. docker run -d -p 4000:80 web2
+
+//to stop
+1. docker ps
+2. docker stop [container_id_or_name]
+
